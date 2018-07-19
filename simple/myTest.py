@@ -6,7 +6,7 @@ class MyFirstTests(unittest.TestCase):
     def test_custom_num_list(self):
         self.assertEqual(len(create_num_list(10)), 10)
     def test_add_Two_Numbers(self):
-        self.assertEqual(sum(add_Two_Numbers()))
+        self.assertEqual(add_Two_Numbers(3.5),8)
 
 if __name__ == "__main__":
     unittest.main()
